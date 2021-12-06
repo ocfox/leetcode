@@ -13,4 +13,6 @@ fn main() {
         }
         res.trim().to_string()
     }
+    let test = "this is a test Really?".to_string();
+    println!("{}", truncate_sentence(test, 4));
 }
