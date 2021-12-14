@@ -19,4 +19,7 @@ fn main() {
         }
         result as i32
     }
+
+    let test = vec!["sftc".to_string(), "fsitnci".to_string()];
+    println!("{}", max_product(test));
 }
