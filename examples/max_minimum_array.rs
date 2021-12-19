@@ -1,5 +1,3 @@
-use std::cmp;
-
 // https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/
 fn main() {
     pub fn max_sub_array(nums: Vec<i32>) -> i32 {
@@ -10,4 +8,6 @@ fn main() {
         }
         res
     }
+    let test = vec![1, 3, 5, 7, 3, 2];
+    println!("{}", max_sub_array(test));
 }
