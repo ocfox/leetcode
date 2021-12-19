@@ -1,4 +1,5 @@
 fn main() {
+    #[allow(unused)]
     pub fn max_product(words: Vec<String>) -> i32 {
         let len = words.len();
         let mut bit_words = vec![0_u32; len];

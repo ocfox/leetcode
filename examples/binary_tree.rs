@@ -1,4 +1,5 @@
 #[derive(Debug, PartialEq, Eq)]
+#[allow(unused)]
 pub struct TreeNode {
     pub val: i32,
     pub left: Option<Rc<RefCell<TreeNode>>>,
@@ -18,6 +19,7 @@ impl TreeNode {
 use std::cell::RefCell;
 use std::rc::Rc;
 fn main() {
+    #[allow(unused)]
     pub fn inorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
         let mut ans = Vec::new();
         fn inorder(root: Option<Rc<RefCell<TreeNode>>>, ret: &mut Vec<i32>) {
