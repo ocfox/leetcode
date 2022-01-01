@@ -1,4 +1,4 @@
-// https://leetcode-cn.com/problems/valid-tic-tac-toe-state/
+// https://leetcode-cn.com/problems/hand-of-straights/
 fn main() {
     pub fn is_n_straight_hand(hand: Vec<i32>, group_size: i32) -> bool {
         if hand.len() % group_size as usize != 0 {
