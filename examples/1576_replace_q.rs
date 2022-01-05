@@ -12,4 +12,6 @@ fn main() {
         }
         vs.iter().collect()
     }
+    let test = "?bos?fsi?di".to_string();
+    println!("{}", modify_string(test));
 }
