@@ -5,4 +5,6 @@ fn main() {
         nums.sort();
         nums[0]
     }
+    let test = vec![1,2,4,56,2,-4];
+    println!("{}",find_min(test));
 }
